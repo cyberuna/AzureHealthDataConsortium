@@ -38,27 +38,27 @@ Commonly, Healthcare data are on many different platforms:
 
 Data is loaded from these different data sources using several Azure components:
 
-- **[Azure Data Share](https://docs.microsoft.com/en-us/azure/data-share/overview)** enables organizations to simply and securely share data with multiple Members. Data providers both Members and Consortium are always in control of the data that they have shared. Azure Data Share makes it simple to manage and monitor what data was shared, when and by whom. Azure Data Share helps enhance insights by making it easy to combine data from all Members to enrich analytics and AI scenarios. 
+- [Azure Data Share](https://docs.microsoft.com/en-us/azure/data-share/overview) enables organizations to simply and securely share data with multiple Members. Data providers both Members and Consortium are always in control of the data that they have shared. Azure Data Share makes it simple to manage and monitor what data was shared, when and by whom. Azure Data Share helps enhance insights by making it easy to combine data from all Members to enrich analytics and AI scenarios. 
 
-- **[Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/)** is an analytics service that brings together enterprise data warehousing and Big Data analytics. It gives you the freedom to query data on your terms, using either serverless on-demand or provisioned resources—at scale. As Consortium data store will have data from all Members, Synapse would be a good fit for higher volume of structured data.
+- [Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/) is an analytics service that brings together enterprise data warehousing and Big Data analytics. It gives you the freedom to query data on your terms, using either serverless on-demand or provisioned resources—at scale. As Consortium data store will have data from all Members, Synapse would be a good fit for higher volume of structured data.
 
-- **[Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview)** is a fully managed platform as a service (PaaS) database engine that handles most of the database management functions such as upgrading, patching, backups, and monitoring without user involvement. Azure SQL DB would be a good fit for Members with structured data.
+- [Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview) is a fully managed platform as a service (PaaS) database engine that handles most of the database management functions such as upgrading, patching, backups, and monitoring without user involvement. Azure SQL DB would be a good fit for Members with structured data.
 
-- **[Azure Data Lake Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction)** is massively scalable and secure data lake for high-performance analytics workloads. Designed to service multiple petabytes of information while sustaining hundreds of gigabits of throughput, Data Lake Storage Gen2 allows you to easily manage massive amounts of data. Azure Data Lake Gen2 would be a good fit to land all Member's structured and unstructured data into one location.
+- [Azure Data Lake Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) is massively scalable and secure data lake for high-performance analytics workloads. Designed to service multiple petabytes of information while sustaining hundreds of gigabits of throughput, Data Lake Storage Gen2 allows you to easily manage massive amounts of data. Azure Data Lake Gen2 would be a good fit to land all Member's structured and unstructured data into one location.
 
-- **[Azure Data Explorer](https://docs.microsoft.com/en-us/azure/data-explorer/)** is a fast, fully managed data analytics service for real-time analysis on large volumes of data streaming from applications, websites, IoT devices, and more. Azure Data Explorer would be good fit for In-Place Sharing of streaming telemetry and log data.
+- [Azure Data Explorer](https://docs.microsoft.com/en-us/azure/data-explorer/) is a fast, fully managed data analytics service for real-time analysis on large volumes of data streaming from applications, websites, IoT devices, and more. Azure Data Explorer would be good fit for In-Place Sharing of streaming telemetry and log data.
 
-- **[Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction)** is a fully managed, serverless data integration service for scale-out serverless data integration and data transformation. It offers a code-free UI for intuitive authoring and single-pane-of-glass monitoring and management. Pipelines will be used to ingest data from disparate Member data shares.
+- [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) is a fully managed, serverless data integration service for scale-out serverless data integration and data transformation. It offers a code-free UI for intuitive authoring and single-pane-of-glass monitoring and management. Pipelines will be used to ingest data from disparate Member data shares.
 
-- **[Azure Databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)** is a data analytics platform that  provides the latest versions of Apache Spark and allows seamlessly integration with open source libraries. Databricks notebooks will be used to transform all Member data into common format.
+- [Azure Databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks) is a data analytics platform that  provides the latest versions of Apache Spark and allows seamlessly integration with open source libraries. Databricks notebooks will be used to transform all Member data into common format.
 
-- **[Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)**  is a multi-tenant, cloud-based identity and access management service.
+- [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)  is a multi-tenant, cloud-based identity and access management service.
 
-- **[Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/)** is a cloud service for securely storing and accessing secrets such as API keys, passwords, certificates, or cryptographic keys.
+- [Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/) is a cloud service for securely storing and accessing secrets such as API keys, passwords, certificates, or cryptographic keys.
 
-- **[Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)** automatically combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
+- [Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) automatically combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
 
-- **[Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/)** provides unified security management and advanced threat protection across hybrid cloud workloads.
+- [Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/) provides unified security management and advanced threat protection across hybrid cloud workloads.
 
 ### Alternatives
 
@@ -74,7 +74,7 @@ Data is loaded from these different data sources using several Azure components:
 
 The technologies in this architecture were chosen because they meet most company's requirements for security, scalability and availability, while helping control costs.
 
-- Azure Data Share leverages the underlying [security](https://docs.microsoft.com/en-us/azure/data-share/security) that Azure offers to protect data at rest and in transit. Data is encrypted at rest, where supported by the underlying data store. Data is also encrypted in transit using TLS 1.2. Metadata about a data share is also encrypted at rest and in transit. Azure Data Share does not store contents of the customer data being shared.
+- [Azure Data Share](https://docs.microsoft.com/en-us/azure/data-share/security) leverages the underlying security that Azure offers to protect data at rest and in transit. Data is encrypted at rest, where supported by the underlying data store. Data is also encrypted in transit using TLS 1.2. Metadata about a data share is also encrypted at rest and in transit. Azure Data Share does not store contents of the customer data being shared.
 
 - [Azure Synapse Analytics](https://azure.microsoft.com/en-us/resources/videos/securing-your-data-warehouse-with-azure-synapse-analytics/) provides comprehensive security model gives you the fine grained controls you need to secure your data at every level.
 
