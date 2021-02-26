@@ -52,13 +52,13 @@ Data is loaded from these different data sources using several Azure components:
 
 - **[Azure Databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks)** is a data analytics platform optimized for the Microsoft Azure cloud services platform. Azure Databricks offers two environments for developing data intensive applications: Azure Databricks SQL Analytics and Azure Databricks Workspace. Azure Databricks provides the latest versions of Apache Spark and allows you to seamlessly integrate with open source libraries. Spin up clusters and build quickly in a fully managed Apache Spark environment with the global scale and availability of Azure.
 
-- **[Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)  is a multi-tenant, cloud-based identity and access management service.
+- **[Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)**  is a multi-tenant, cloud-based identity and access management service.
 
-- **[Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/) is a cloud service for securely storing and accessing secrets such as API keys, passwords, certificates, or cryptographic keys.
+- **[Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/)** is a cloud service for securely storing and accessing secrets such as API keys, passwords, certificates, or cryptographic keys.
 
-- **[Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) automatically combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
+- **[Azure DevOps Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)** automatically combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
 
-- **[Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/) provides unified security management and advanced threat protection across hybrid cloud workloads.
+- **[Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/)** provides unified security management and advanced threat protection across hybrid cloud workloads.
 
 ### Alternatives
 
