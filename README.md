@@ -101,6 +101,13 @@ Pricing for this architecture is going to be based on the services chosen, the c
 
 ## Next steps
 
+Learn more about
+- [Azure Data Share](https://docs.microsoft.com/en-us/azure/data-share/overview)
+- [Azure Synapse Analytics](https://azure.microsoft.com/en-us/resources/videos/securing-your-data-warehouse-with-azure-synapse-analytics/)
+- [Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/security-overview)
+- [Azure Data Lake Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control)
+- [Azure Data Explorer](https://docs.microsoft.com/en-us/azure/data-explorer/security) 
+
 Modify the reference architecture above to fit your specific requirements by answering these questions:
 - What and where are your Data sources?
 - Which Azure data store(s) will this be data landed in Member Data Store?
